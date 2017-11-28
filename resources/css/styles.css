@@ -13,6 +13,7 @@ div{
   width: 960px;
   margin: 0 auto;
 }
+/*-- header --*/
 header{
   background-image: url(../images/glasses-bg.png);
   background-repeat: no-repeat;
@@ -61,7 +62,64 @@ header{
   font-weight: bold;
   line-height: 1.2;
 }
-
+/*-- body --*/
+  /*-- process --*/
+.steps{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  width: 5rem;
+  text-align: center;
+}
+.step1, .step2{
+    margin-right: 6rem;
+}
+.step1 img{
+  width: 3.5rem;
+}
+.step2 img, .step3 img{
+  width: 5rem;
+}
+.store-info{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-right: 5%;
+}
+.lable{
+  background-color: cadetblue;
+  width: 10rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+}
+.info-container p{
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+.footer1{
+  display: flex;
+  align-items: center;
+  background-color: azure;
+}
+.footer1 img{
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
 
 
 @media only screen and (min-width: 1024px) {
