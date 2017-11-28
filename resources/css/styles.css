@@ -121,8 +121,25 @@ header{
   padding: 4rem 1rem 4rem 4rem;
 }
 
+@media only screen and (max-width: 1024px){
+  .container{
+    width: 100%;
+  }
+  .header-top{
+    margin-top: 0;
+  }
+  header{
+    height: 22rem;
+  }
+  .tagline{
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: 0.75 4rem;
+    font-size: 1.33rem;
+  }
 
-@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 470px) {
   .drop-down{
     display: none;
   }
