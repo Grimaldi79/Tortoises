@@ -43,10 +43,14 @@ header{
   height: 1.5rem;
   margin-right: 1rem;
 }
-.nav ,a{
+.nav{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+a{
   color: white;
   text-decoration: none;
-  margin: 1rem 1rem 1rem 1rem;
+  margin-right: 2rem;
 }
 .banner{
   display: flex;
@@ -137,10 +141,80 @@ header{
     padding: 0.75 4rem;
     font-size: 1.33rem;
   }
-
 }
-@media only screen and (min-width: 470px) {
+
+@media only screen and (min-width: 480px) {
   .drop-down{
     display: none;
   }
 }
+ @media only screen and (max-width: 480px){
+  .container{
+    width: 100%;
+  }
+  header{
+    background-position: 20%;
+    height: 17rem;
+  }
+  .site-id span{
+    display: none;
+  }
+  .desk-nav{
+    display: none;
+  }
+  .drop-down{
+    display: block;
+  }
+  .tagline{
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 9rem;
+    margin-right: 0;
+    width: 100%;
+  }
+  .steps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.77rem;
+  }
+  .step1, .step2{
+    margin-right: 0;
+    margin-bottom: 1.54rem;
+  }
+  .store-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .info-container{
+    width: 100%;
+  }
+  .phil{
+    margin-top: 3.77rem;
+    margin-bottom: 4rem;
+  }
+  .info-container{
+    width: 95%;
+  }
+  .lable{
+    width: 100%;
+    text-align: center;
+  }
+  .info-container p{
+    font-size: 0.77rem;
+    width: 95%;
+    padding-right: 0.5rem;
+  }
+  .footer1 span{
+    display: none;
+  }
+  .footer1{
+    align-items: center;
+    justify-content: center;
+  }
+
+    }
