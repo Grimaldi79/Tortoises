@@ -1,10 +1,11 @@
 html{
   font-size: 18px;
-  line-height: 1.4;
+
 }
 body{
   font-family: Helvetica;
   color: black;
+  line-height: 1.4;
 }
 div{
   display: block;
@@ -178,6 +179,14 @@ a{
     flex-direction: column;
     align-items: center;
     margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    font-size: 0.77rem;
+  }
+  .step{
+    height: auto;
+  }
+  .step span{
+  margin-top: 1.54rem;
   }
   .step1, .step2{
     margin-right: 0;
@@ -188,26 +197,26 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
-  }
-  .info-container{
-    width: 100%;
   }
   .phil{
-    margin-top: 3.77rem;
-    margin-bottom: 4rem;
+
+
   }
   .info-container{
     width: 95%;
+    margin-bottom: 4rem;
   }
   .lable{
     width: 100%;
     text-align: center;
   }
+  .info-par{
+    padding-left: 0.2rem;
+  }
   .info-container p{
     font-size: 0.77rem;
     width: 95%;
-    padding-right: 0.5rem;
+    margin-bottom: 0;
   }
   .footer1 span{
     display: none;
